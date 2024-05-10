@@ -4,7 +4,7 @@ import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
 
 export default defineConfig({
-  base: "/-ledzenie-wydatk-w/",
+  publicPath: "/-ledzenie-wydatk-w/",
   plugins: [vue()],
   resolve: {
     alias: {
